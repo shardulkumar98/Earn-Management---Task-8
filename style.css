@@ -7,6 +7,9 @@
   /* font-family: "Outfit", sans-serif; */
   /* border: 1px solid green; */
 }
+body{
+  background: #000;
+}
 .main-body {
   background-image: url("./images/bg.png");
   background-size: cover;
@@ -73,7 +76,7 @@
 }
 .container1 {
   /* border: 1px solid yellowgreen; */
-  /* position: relative; */
+  position: relative;
   align-items: center;
   display: flex;
   height: 722px;
@@ -342,12 +345,6 @@
   /* height: 400px; */
   height: 828px;
 
-}
-.left-container {
-  /* border: 1px solid rgb(124, 236, 236); */
-}
-.left-header {
-  /* border: 1px solid rgb(207, 105, 190); */
 }
 .row-heading {
   margin-top: 82px;
@@ -806,8 +803,8 @@ footer {
 /* join button */
 .j-btn {
   position: fixed;
-    right: 315px;
-    top: 875px;
+    left: 1430px;
+    top: 715px;
   display: flex;
   flex-direction: row-reverse;
   z-index: 9999;
@@ -823,9 +820,10 @@ footer {
   align-items: center;
   border-radius: 200px;
   background: #fff;
-  position: absolute;
-  right: 31px;
-bottom: 37px;
+  /* position: fixed; */
+  /* left: 31px; */
+/* bottom: 37px; */
+/* left: 45px; */
 }
 .join-btn p {
   color: black;
