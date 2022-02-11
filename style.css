@@ -28,6 +28,7 @@
   position: sticky;
   top: 0;
   height: 119px;
+  z-index: 9999;
 }
 .logo {
   margin-top: 23px;
@@ -72,9 +73,12 @@
 }
 .container1 {
   /* border: 1px solid yellowgreen; */
+  /* position: relative; */
   align-items: center;
   display: flex;
   height: 722px;
+  /* height: 828px; */
+
   margin-left: 132px;
 }
 .container1-sec1 {
@@ -336,6 +340,8 @@
   border-right: none;
   border-bottom: none;
   /* height: 400px; */
+  height: 828px;
+
 }
 .left-container {
   /* border: 1px solid rgb(124, 236, 236); */
@@ -518,6 +524,7 @@
 .heading-para {
   /* border: 2px solid yellow; */
   /* padding: 50px 100px; */
+  padding-top: 40px;
 }
 .heading-para h1 {
   margin-left: 90px;
@@ -549,7 +556,7 @@
 .main-contact {
   /* border: 1px solid yellowgreen; */
   display: flex;
-  height: 40%;
+  /* height: 40%; */
 }
 .main-contact p {
   margin-bottom: 55px;
@@ -640,7 +647,7 @@
 
 /* footer */
 footer {
-  position: relative;
+  /* position: relative; */
   border-top: 3px solid rgba(255, 255, 255, 0.21);
 }
 .footer-container {
@@ -798,25 +805,27 @@ footer {
 }
 /* join button */
 .j-btn {
+  position: fixed;
+    right: 315px;
+    top: 875px;
   display: flex;
   flex-direction: row-reverse;
+  z-index: 9999;
 }
 .join-btn {
   /* background: #fff; */
-  border: 2px solid red;
-  width: 100px;
-  height: 100px;
+  /* border: 2px solid red; */
+  width: 122px;
+  height: 122px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 200px;
   background: #fff;
-  /* position: absolute;
-  top: 740px;
-  right: 3px;
-  position: fixed;
-  top: 734px; */
+  position: absolute;
+  right: 31px;
+bottom: 37px;
 }
 .join-btn p {
   color: black;
